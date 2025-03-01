@@ -10,9 +10,8 @@ A Unity package that extends ScriptableObjects to support runtime saving and loa
 - **Debug Logging:** Toggleable debug messages for tracking save/load operations.
 
 ## Installation
-1. Clone or download this repository.
-2. Import the `ProjectTools.SOHelp` namespace into your Unity project.
-3. Install `Newtonsoft.Json` via Unity's package manager if not already included.
+1. Check if your project has, if not its dependency instal it from here (free) -  [Newtonsoft Json Unity Package](https://docs.unity3d.com/Packages/com.unity.nuget.newtonsoft-json@3.2/manual/index.html)
+2. [Download Unity Package](https://github.com/EduardMalkhasyan/Savable-ScriptableObjects-Unity/releases)
 
 ## How It Works
 This package provides the `SOLoader<T>` class, which serves as a base class for savable ScriptableObjects.
