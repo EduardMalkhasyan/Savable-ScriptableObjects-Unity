@@ -6,7 +6,7 @@ A Unity package that extends ScriptableObjects to support runtime saving and loa
 - **Save & Load ScriptableObjects:** Automatically save and restore ScriptableObjects using JSON serialization.
 - **Automatic & Manual Saving:** Supports both automatic saving on value change and manual triggers.
 - **Reserve File Backup:** Uses reserve files in `Resources` for restoring default values.
-- **Odin Inspector Support:** If Odin Inspector is installed, additional UI controls are available.
+- **Odin Inspector Support (Works and without it!):** If Odin Inspector is installed, additional UI controls are available.
 - **Debug Logging:** Toggleable debug messages for tracking save/load operations.
 
 ## Installation
