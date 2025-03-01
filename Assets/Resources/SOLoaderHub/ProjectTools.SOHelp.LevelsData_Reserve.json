@@ -1,0 +1,83 @@
+{
+  "levelPreset": {
+    "index": 11,
+    "name": "Level_11",
+    "initialPosition": {
+      "x": 11.0,
+      "y": 11.0,
+      "z": 11.0
+    },
+    "rotation": {
+      "x": 0.104109392,
+      "y": 0.08582115,
+      "z": 0.08582115,
+      "w": 0.9871326
+    }
+  },
+  "levelPresets": [
+    {
+      "index": 1,
+      "name": "Level_1",
+      "initialPosition": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rotation": {
+        "x": 0.00880202,
+        "y": 0.008649721,
+        "z": 0.008649721,
+        "w": 0.9998864
+      }
+    },
+    {
+      "index": 2,
+      "name": "Level_2",
+      "initialPosition": {
+        "x": 2.0,
+        "y": 2.0,
+        "z": 2.0
+      },
+      "rotation": {
+        "x": 0.01775163,
+        "y": 0.01714255,
+        "z": 0.01714255,
+        "w": 0.9995485
+      }
+    }
+  ],
+  "levelPresetsDictionary": {
+    "1": {
+      "index": 1,
+      "name": "Level_1",
+      "initialPosition": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "rotation": {
+        "x": 0.00880202,
+        "y": 0.008649721,
+        "z": 0.008649721,
+        "w": 0.9998864
+      }
+    },
+    "2": {
+      "index": 2,
+      "name": "Level_2",
+      "initialPosition": {
+        "x": 2.0,
+        "y": 2.0,
+        "z": 2.0
+      },
+      "rotation": {
+        "x": 0.0177516285,
+        "y": 0.017142551,
+        "z": 0.01714255,
+        "w": 0.9995485
+      }
+    }
+  },
+  "name": "ProjectTools.SOHelp.LevelsData",
+  "hideFlags": 0
+}

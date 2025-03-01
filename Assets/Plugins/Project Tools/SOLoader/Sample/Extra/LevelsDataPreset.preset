@@ -1,0 +1,402 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LevelsDataPreset
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: aa522049766dd5a489c7c65b11162a0c,
+      type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: savable
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: autoSave
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: debug
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPreset.index
+    value: 11
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPreset.name
+    value: Level_11
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPreset.logo
+    value: 
+    objectReference: {fileID: 21300000, guid: 41c38acc1f0c65b498651d4c14242221, type: 3}
+  - target: {fileID: 0}
+    propertyPath: levelPreset.gameObject
+    value: 
+    objectReference: {fileID: 8187069296031089452, guid: 535f652eca2859d47a380fdfdad44c2c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: levelPreset.transform
+    value: 
+    objectReference: {fileID: 3423096831437308846, guid: 535f652eca2859d47a380fdfdad44c2c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: levelPreset.initialPosition.x
+    value: 11
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPreset.initialPosition.y
+    value: 11
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPreset.initialPosition.z
+    value: 11
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPreset.rotation.x
+    value: 0.10410939
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPreset.rotation.y
+    value: 0.08582115
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPreset.rotation.z
+    value: 0.08582115
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPreset.rotation.w
+    value: 0.9871326
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPreset.color.r
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPreset.color.g
+    value: 0.6366074
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPreset.color.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPreset.color.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPresets.Array.size
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPresets.Array.data[0].index
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPresets.Array.data[0].name
+    value: Level_1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPresets.Array.data[0].logo
+    value: 
+    objectReference: {fileID: 21300000, guid: 41c38acc1f0c65b498651d4c14242221, type: 3}
+  - target: {fileID: 0}
+    propertyPath: levelPresets.Array.data[0].gameObject
+    value: 
+    objectReference: {fileID: 8187069296031089452, guid: 535f652eca2859d47a380fdfdad44c2c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: levelPresets.Array.data[0].transform
+    value: 
+    objectReference: {fileID: 3423096831437308846, guid: 535f652eca2859d47a380fdfdad44c2c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: levelPresets.Array.data[0].initialPosition.x
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPresets.Array.data[0].initialPosition.y
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPresets.Array.data[0].initialPosition.z
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPresets.Array.data[0].rotation.x
+    value: 0.00880202
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPresets.Array.data[0].rotation.y
+    value: 0.008649721
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPresets.Array.data[0].rotation.z
+    value: 0.008649721
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPresets.Array.data[0].rotation.w
+    value: 0.9998864
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPresets.Array.data[0].color.r
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPresets.Array.data[0].color.g
+    value: 0.6366074
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPresets.Array.data[0].color.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPresets.Array.data[0].color.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPresets.Array.data[1].index
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPresets.Array.data[1].name
+    value: Level_2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPresets.Array.data[1].logo
+    value: 
+    objectReference: {fileID: 21300000, guid: 41c38acc1f0c65b498651d4c14242221, type: 3}
+  - target: {fileID: 0}
+    propertyPath: levelPresets.Array.data[1].gameObject
+    value: 
+    objectReference: {fileID: 8187069296031089452, guid: 535f652eca2859d47a380fdfdad44c2c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: levelPresets.Array.data[1].transform
+    value: 
+    objectReference: {fileID: 3423096831437308846, guid: 535f652eca2859d47a380fdfdad44c2c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: levelPresets.Array.data[1].initialPosition.x
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPresets.Array.data[1].initialPosition.y
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPresets.Array.data[1].initialPosition.z
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPresets.Array.data[1].rotation.x
+    value: 0.01775163
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPresets.Array.data[1].rotation.y
+    value: 0.01714255
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPresets.Array.data[1].rotation.z
+    value: 0.01714255
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPresets.Array.data[1].rotation.w
+    value: 0.9995485
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPresets.Array.data[1].color.r
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPresets.Array.data[1].color.g
+    value: 0.6366074
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPresets.Array.data[1].color.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPresets.Array.data[1].color.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPresetsDictionary.dictionaryList.Array.size
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPresetsDictionary.dictionaryList.Array.data[0].Key
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPresetsDictionary.dictionaryList.Array.data[0].Value.index
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPresetsDictionary.dictionaryList.Array.data[0].Value.name
+    value: Level_1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPresetsDictionary.dictionaryList.Array.data[0].Value.logo
+    value: 
+    objectReference: {fileID: 21300000, guid: 41c38acc1f0c65b498651d4c14242221, type: 3}
+  - target: {fileID: 0}
+    propertyPath: levelPresetsDictionary.dictionaryList.Array.data[0].Value.gameObject
+    value: 
+    objectReference: {fileID: 8187069296031089452, guid: 535f652eca2859d47a380fdfdad44c2c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: levelPresetsDictionary.dictionaryList.Array.data[0].Value.transform
+    value: 
+    objectReference: {fileID: 3423096831437308846, guid: 535f652eca2859d47a380fdfdad44c2c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: levelPresetsDictionary.dictionaryList.Array.data[0].Value.initialPosition.x
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPresetsDictionary.dictionaryList.Array.data[0].Value.initialPosition.y
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPresetsDictionary.dictionaryList.Array.data[0].Value.initialPosition.z
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPresetsDictionary.dictionaryList.Array.data[0].Value.rotation.x
+    value: 0.00880202
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPresetsDictionary.dictionaryList.Array.data[0].Value.rotation.y
+    value: 0.008649721
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPresetsDictionary.dictionaryList.Array.data[0].Value.rotation.z
+    value: 0.008649721
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPresetsDictionary.dictionaryList.Array.data[0].Value.rotation.w
+    value: 0.9998864
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPresetsDictionary.dictionaryList.Array.data[0].Value.color.r
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPresetsDictionary.dictionaryList.Array.data[0].Value.color.g
+    value: 0.6366074
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPresetsDictionary.dictionaryList.Array.data[0].Value.color.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPresetsDictionary.dictionaryList.Array.data[0].Value.color.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPresetsDictionary.dictionaryList.Array.data[0].index
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPresetsDictionary.dictionaryList.Array.data[0].isKeyDuplicated
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPresetsDictionary.dictionaryList.Array.data[1].Key
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPresetsDictionary.dictionaryList.Array.data[1].Value.index
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPresetsDictionary.dictionaryList.Array.data[1].Value.name
+    value: Level_2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPresetsDictionary.dictionaryList.Array.data[1].Value.logo
+    value: 
+    objectReference: {fileID: 21300000, guid: 41c38acc1f0c65b498651d4c14242221, type: 3}
+  - target: {fileID: 0}
+    propertyPath: levelPresetsDictionary.dictionaryList.Array.data[1].Value.gameObject
+    value: 
+    objectReference: {fileID: 8187069296031089452, guid: 535f652eca2859d47a380fdfdad44c2c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: levelPresetsDictionary.dictionaryList.Array.data[1].Value.transform
+    value: 
+    objectReference: {fileID: 3423096831437308846, guid: 535f652eca2859d47a380fdfdad44c2c,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: levelPresetsDictionary.dictionaryList.Array.data[1].Value.initialPosition.x
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPresetsDictionary.dictionaryList.Array.data[1].Value.initialPosition.y
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPresetsDictionary.dictionaryList.Array.data[1].Value.initialPosition.z
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPresetsDictionary.dictionaryList.Array.data[1].Value.rotation.x
+    value: 0.017751629
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPresetsDictionary.dictionaryList.Array.data[1].Value.rotation.y
+    value: 0.017142551
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPresetsDictionary.dictionaryList.Array.data[1].Value.rotation.z
+    value: 0.01714255
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPresetsDictionary.dictionaryList.Array.data[1].Value.rotation.w
+    value: 0.9995485
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPresetsDictionary.dictionaryList.Array.data[1].Value.color.r
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPresetsDictionary.dictionaryList.Array.data[1].Value.color.g
+    value: 0.6366074
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPresetsDictionary.dictionaryList.Array.data[1].Value.color.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPresetsDictionary.dictionaryList.Array.data[1].Value.color.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPresetsDictionary.dictionaryList.Array.data[1].index
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: levelPresetsDictionary.dictionaryList.Array.data[1].isKeyDuplicated
+    value: 0
+    objectReference: {fileID: 0}
+  m_ExcludedProperties: []
