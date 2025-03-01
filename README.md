@@ -24,6 +24,19 @@ or you can directly from Unity
 ## How It Works
 This package provides the `SOLoader<T>` class, which serves as a base class for savable ScriptableObjects.
 
+## Limitations-Important!
+Script must be called only from one instance SOLoader<T>.Value otherwise it will not going to work, also SO cannot have duplicates
+```csharp
+     public class Test : MonoBehaviour
+{
+    void Start()
+    {
+        // Here its called from Value as instance directly to other class, this is only ways supports this system 
+        LevelsData.Value.levelPreset.index = 1;
+    }
+}
+```
+
 ### Example: Creating a Savable ScriptableObject
 ```csharp
 using ProjectTools.SOHelp;
@@ -64,6 +77,10 @@ public class Test : MonoBehaviour
 ```
 
 ![Demo](https://github.com/user-attachments/assets/23c6b097-681b-4dc6-b726-0f3ab4a7fe25)
+
+![image](https://github.com/user-attachments/assets/45167e9a-6d0b-4741-85f6-d2c051d3f4c3)
+
+![image](https://github.com/user-attachments/assets/d88605d6-42fd-43c7-8141-dbeec085f8dc)
 
 ## Saving & Loading
 - `SaveData()`: Saves the current state of the ScriptableObject to `PlayerPrefs`.
