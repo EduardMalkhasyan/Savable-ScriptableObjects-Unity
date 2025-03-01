@@ -63,7 +63,10 @@ public class LevelDataPreset
 2. Go to Tools -> ProjectLibrary -> Scriptable Object -> Create SO's
    ![Create SOLoader](https://github.com/user-attachments/assets/38c573de-ef08-401e-80cf-e8b4d1f122a4)
 
-3. Then just access it to other class 
+   It will create SO's herer
+   ![image](https://github.com/user-attachments/assets/32f95ba2-1042-4baa-a462-13a13d9364d6)
+ 
+4. Then just access it to other class 
 ```csharp
 public class Test : MonoBehaviour
 {
