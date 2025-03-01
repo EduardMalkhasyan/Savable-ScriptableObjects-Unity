@@ -11,8 +11,7 @@
 - 🔄 JSON serialization using Newtonsoft.Json
 - ⚡ Auto-save functionality
 - 🛡️ Reserve data fallback system
-- 🧩 Odin Inspector integration (optional)
-- � Editor-friendly workflow
+- 🧩 Works with Odin inspector and without! 
 - 📖 Dictionary serialization support
 
 ## Installation
