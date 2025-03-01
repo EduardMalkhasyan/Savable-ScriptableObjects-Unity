@@ -94,7 +94,7 @@ public class Test : MonoBehaviour
     }
 }
 ```
-If your mark class member [JsonIgnore] attribute it will not be saved 
+If you mark a class member [JsonIgnore] attribute it will not be saved 
 ```csharp
     public class LevelsData : SOLoader<LevelsData>
     {
