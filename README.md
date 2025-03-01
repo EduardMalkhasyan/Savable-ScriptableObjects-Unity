@@ -69,6 +69,12 @@ public class Test : MonoBehaviour
 If class for example marked savable from control and also autosave, access SO from script and it on change it will be saved automaticly 
 ![Control Panel](https://github.com/user-attachments/assets/ae9ca109-cce8-4b12-8b54-71ffd14e61ec)
 
+## Saving & Loading
+- `SaveData()`: Saves the current state of the ScriptableObject to `PlayerPrefs`.
+- `DeleteData()`: Clears saved data and resets values to defaults.
+- `ManualSaveData()`: Allows manual saving during edit mode in Unity Editor.
+- `SaveReserveData()`: Save Default SO data for future reset in resources folder as JSON file.
+
 ### Example: Accessing and Modifying Data
 ```csharp
 public class Test : MonoBehaviour
@@ -83,6 +89,19 @@ public class Test : MonoBehaviour
 }
 ```
 
+## Limitations-Important!
+Script must be called only from one instance SOLoader<T>.Value otherwise it will not going to work, also SO cannot have duplicates
+```csharp
+     public class Test : MonoBehaviour
+{
+    void Start()
+    {
+        // Here its called from Value as instance directly to other class, this is only ways supports this system 
+        LevelsData.Value.levelPreset.index = 1;
+    }
+}
+```
+
 ![Demo](https://github.com/user-attachments/assets/23c6b097-681b-4dc6-b726-0f3ab4a7fe25)
 
 How control panel looks
@@ -90,12 +109,6 @@ How control panel looks
 
 How JSON reserve looks
 ![image](https://github.com/user-attachments/assets/d88605d6-42fd-43c7-8141-dbeec085f8dc)
-
-## Saving & Loading
-- `SaveData()`: Saves the current state of the ScriptableObject to `PlayerPrefs`.
-- `DeleteData()`: Clears saved data and resets values to defaults.
-- `ManualSaveData()`: Allows manual saving during edit mode in Unity Editor.
-- `SaveReserveData()`: Save Default SO data for future reset in resources folder as JSON file.
 
 ## Requirements
 - Unity 2020+ tested in Unity 2022
