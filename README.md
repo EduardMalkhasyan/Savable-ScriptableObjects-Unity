@@ -55,6 +55,8 @@ public class Test : MonoBehaviour
     void Start()
     {
         LevelsData.Value.levelPreset.index = 1;
+
+        // This save in case if its not setted to autoSave!
         LevelsData.Value.SaveData();
     }
 }
