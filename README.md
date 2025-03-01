@@ -3,6 +3,7 @@
 A Unity package that extends ScriptableObjects to support runtime saving and loading using `PlayerPrefs` and JSON serialization. This allows ScriptableObjects to persist data between play sessions while maintaining their benefits.
 
 ## Features
+- **All latforms** PC, Mobile, WebGL, Onlyfans))
 - **Save & Load ScriptableObjects:** Automatically save and restore ScriptableObjects using JSON serialization.
 - **Automatic & Manual Saving:** Supports both automatic saving on value change and manual triggers.
 - **Web Request and Update to SO** Take JSON from web request and store it to Scriptable Object
@@ -61,6 +62,8 @@ public class Test : MonoBehaviour
     }
 }
 ```
+
+![Demo](https://github.com/user-attachments/assets/23c6b097-681b-4dc6-b726-0f3ab4a7fe25)
 
 ## Saving & Loading
 - `SaveData()`: Saves the current state of the ScriptableObject to `PlayerPrefs`.
