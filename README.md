@@ -37,7 +37,8 @@ Script must be called only from one instance SOLoader<T>.Value otherwise it will
 }
 ```
 
-### Example: Creating a Savable ScriptableObject
+### Step to use:
+1. Create scirpt and inherit it from SOLoader<T>
 ```csharp
 using ProjectTools.SOHelp;
 using System.Collections.Generic;
@@ -59,6 +60,22 @@ public class LevelDataPreset
     public Quaternion rotation;
 }
 ```
+2. Go to Tools -> ProjectLibrary -> Scriptable Object -> Create SO's
+   ![Create SOLoader](https://github.com/user-attachments/assets/38c573de-ef08-401e-80cf-e8b4d1f122a4)
+
+3. Then just access it to other class 
+```csharp
+public class Test : MonoBehaviour
+{
+    void Start()
+    {
+        LevelsData.Value.levelPreset.index = 1;
+        // This save in case if its not setted to autoSave!
+        LevelsData.Value.SaveData();
+    }
+}
+```
+
 If class for example marked savable from control and also autosave, access SO from script and it on change it will be saved automaticly 
 ![Control Panel](https://github.com/user-attachments/assets/ae9ca109-cce8-4b12-8b54-71ffd14e61ec)
 
@@ -78,8 +95,10 @@ public class Test : MonoBehaviour
 
 ![Demo](https://github.com/user-attachments/assets/23c6b097-681b-4dc6-b726-0f3ab4a7fe25)
 
+How control panel looks
 ![image](https://github.com/user-attachments/assets/45167e9a-6d0b-4741-85f6-d2c051d3f4c3)
 
+How JSON reserve looks
 ![image](https://github.com/user-attachments/assets/d88605d6-42fd-43c7-8141-dbeec085f8dc)
 
 ## Saving & Loading
