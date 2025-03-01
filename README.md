@@ -24,19 +24,6 @@ or you can directly from Unity
 ## How It Works
 This package provides the `SOLoader<T>` class, which serves as a base class for savable ScriptableObjects.
 
-## Limitations-Important!
-Script must be called only from one instance SOLoader<T>.Value otherwise it will not going to work, also SO cannot have duplicates
-```csharp
-     public class Test : MonoBehaviour
-{
-    void Start()
-    {
-        // Here its called from Value as instance directly to other class, this is only ways supports this system 
-        LevelsData.Value.levelPreset.index = 1;
-    }
-}
-```
-
 ### Step to use:
 1. Create scirpt and inherit it from SOLoader<T>
 ```csharp
