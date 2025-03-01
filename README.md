@@ -1,92 +1,69 @@
-# Savable Scriptable Objects for Unity
+# Savable-ScriptableObjects-Unity
 
-A Unity plugin that allows you to save and load ScriptableObject data using JSON serialization via Newtonsoft.Json. Supports PlayerPrefs-based saving, reserve files, and easy integration with Odin Inspector (if available).
+A Unity package that extends ScriptableObjects to support runtime saving and loading using `PlayerPrefs` and JSON serialization. This allows ScriptableObjects to persist data between play sessions while maintaining their benefits.
 
 ## Features
-- Save and load ScriptableObjects automatically.
-- Supports PlayerPrefs and reserve file backups.
-- Compatible with Odin Inspector (optional).
-- Allows selective serialization using `[JsonIgnore]`.
+- **Save & Load ScriptableObjects:** Automatically save and restore ScriptableObjects using JSON serialization.
+- **Automatic & Manual Saving:** Supports both automatic saving on value change and manual triggers.
+- **Reserve File Backup:** Uses reserve files in `Resources` for restoring default values.
+- **Odin Inspector Support:** If Odin Inspector is installed, additional UI controls are available.
+- **Debug Logging:** Toggleable debug messages for tracking save/load operations.
 
 ## Installation
-1. Add the `Newtonsoft.Json` package to your Unity project.
-2. Clone or download this repository and place it in your Unity `Assets/Plugins` folder.
+1. Clone or download this repository.
+2. Import the `ProjectTools.SOHelp` namespace into your Unity project.
+3. Install `Newtonsoft.Json` via Unity's package manager if not already included.
 
-## Usage
+## How It Works
+This package provides the `SOLoader<T>` class, which serves as a base class for savable ScriptableObjects.
 
-### 1. Create a Savable Scriptable Object
-Create a class that inherits from `SOLoader<T>`, where `T` is your ScriptableObject type.
-
+### Example: Creating a Savable ScriptableObject
 ```csharp
-using Newtonsoft.Json;
-using ProjectTools.DictionaryHelp;
-using System;
+using ProjectTools.SOHelp;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace ProjectTools.SOHelp
+[CreateAssetMenu(fileName = "LevelsData", menuName = "Game/Levels Data")]
+public class LevelsData : SOLoader<LevelsData>
 {
-    [CreateAssetMenu(fileName = "LevelsData", menuName = "Game Data/Levels Data")]
-    public class LevelsData : SOLoader<LevelsData>
-    {
-        public LevelDataPreset levelPreset;
-        public List<LevelDataPreset> levelPresets;
-        public SerializableDictionary<int, LevelDataPreset> levelPresetsDictionary;
-    }
+    public LevelDataPreset levelPreset;
+    public List<LevelDataPreset> levelPresets;
 }
 
-[Serializable]
+[System.Serializable]
 public class LevelDataPreset
 {
     public int index;
     public string name;
-    
-    // Any UnityObject can't be saved
-    public Sprite logo;
-    public GameObject gameObject;
-    public Transform transform;
-
     public Vector3 initialPosition;
     public Quaternion rotation;
-
-    // If you put [JsonIgnore] attribute, it will not be saved
-    [JsonIgnore] public Color color;
 }
 ```
 
-### 2. Saving Data
-To manually save data:
+### Example: Accessing and Modifying Data
 ```csharp
-LevelsData.Value.SaveData();
+public class Test : MonoBehaviour
+{
+    void Start()
+    {
+        LevelsData.Value.levelPreset.index = 1;
+        LevelsData.Value.SaveData();
+    }
+}
 ```
 
-### 3. Loading Data
-Access the singleton instance of the ScriptableObject:
-```csharp
-LevelsData levelsData = LevelsData.Value;
-```
+## Saving & Loading
+- `SaveData()`: Saves the current state of the ScriptableObject to `PlayerPrefs`.
+- `DeleteData()`: Clears saved data and resets values to defaults.
+- `ManualSaveData()`: Allows manual saving during edit mode in Unity Editor.
 
-### 4. Deleting Data
-To manually delete saved data:
-```csharp
-LevelsData.Value.DeleteData();
-```
-
-### 5. Ignoring Fields from Serialization
-Use `[JsonIgnore]` to prevent a field from being serialized. For example:
-```csharp
-[JsonIgnore] public Color color;
-```
-This ensures that `color` is not saved or loaded from PlayerPrefs.
-
-## Debugging
-Enable debugging to log save/load actions:
-```csharp
-LevelsData.Value.debug = true;
-```
-
-## Contributing
-Feel free to fork, submit pull requests, or open issues.
+## Requirements
+- Unity 2020+
+- `Newtonsoft.Json` package (can be installed via `com.unity.nuget.newtonsoft-json`)
 
 ## License
-MIT License.
+MIT License. Feel free to use and modify it for your projects.
+
+---
+Contributions and suggestions are welcome!
+
