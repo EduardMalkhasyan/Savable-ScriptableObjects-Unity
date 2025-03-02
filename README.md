@@ -123,6 +123,14 @@ If you mark a class member [JsonIgnore] attribute it will not be saved
         [JsonIgnore] public Color color;
     }
 ```
+## Update SO data from Web Request and save it
+```csharp
+ private void GetJsonFromFakeRequestAndSetItToLevelData()
+        {
+            Debug.Log("Fake request is get from server");
+            LevelsData.Value.SetValuesManual(FakeJson());
+        }
+```
 
 ## Important Limitations
 - The script must be accessed through a **single instance** of `SOLoader<T>.Value`.
