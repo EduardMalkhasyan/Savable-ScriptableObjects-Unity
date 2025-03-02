@@ -1,0 +1,4 @@
+<linker>
+  <assembly fullname="Newtonsoft.Json" preserve="all" />
+  <assembly fullname="ProjectTools" preserve="all" />
+</linker>
