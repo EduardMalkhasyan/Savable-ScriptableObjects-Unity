@@ -138,11 +138,7 @@ public class Test : MonoBehaviour
     }
 }
 ```
-
-![Demo](https://github.com/user-attachments/assets/23c6b097-681b-4dc6-b726-0f3ab4a7fe25)
-
-### Control Panel UI
-![image](https://github.com/user-attachments/assets/45167e9a-6d0b-4741-85f6-d2c051d3f4c3)
+![7cuext2s25me1](https://github.com/user-attachments/assets/bbb243c8-5620-4588-8898-9666c9e1fd11)
 
 ### JSON Backup Example
 ![image](https://github.com/user-attachments/assets/d88605d6-42fd-43c7-8141-dbeec085f8dc)
