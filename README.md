@@ -149,6 +149,3 @@ public class Test : MonoBehaviour
 ## License
 MIT License. Feel free to use and modify it for your projects.
 
----
-Contributions and suggestions are welcome!
-
