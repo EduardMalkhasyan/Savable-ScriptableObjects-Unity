@@ -123,8 +123,8 @@ If you mark a class member [JsonIgnore] attribute it will not be saved
         [JsonIgnore] public Color color;
     }
 ```
-### Extra Information
-## Update SO data from Web Request and save it
+## Extra Information
+### Update SO data from Web Request and save it
 ```csharp
  private void GetJsonFromFakeRequestAndSetItToLevelData()
         {
@@ -132,7 +132,7 @@ If you mark a class member [JsonIgnore] attribute it will not be saved
             LevelsData.Value.SetValuesManual(FakeJson());
         }
 ```
-## Enum serialization as string in json
+### Enum serialization as string in json
 ```csharp
  [JsonConverter(typeof(StringEnumConverter))]
 public enum Status
@@ -141,7 +141,7 @@ public enum Status
     Inactive
 }
 ```
-## Serialize and Deserialize a Property with private member
+### Serialize and Deserialize a Property with private member
 ```csharp
  [SerializeField] private int testNumber;
  [JsonProperty]
@@ -151,7 +151,7 @@ public enum Status
      private set => testNumber = value;
  }
 ```
-## Important Limitations
+### Important Limitations
 - The script must be accessed through a **single instance** of `SOLoader<T>.Value`.
 - Duplicate instances of the same ScriptableObject are **not** supported.
 
