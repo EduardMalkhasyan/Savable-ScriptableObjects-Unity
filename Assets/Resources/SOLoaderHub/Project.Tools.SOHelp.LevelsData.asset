@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aa522049766dd5a489c7c65b11162a0c, type: 3}
-  m_Name: ProjectTools.SOHelp.LevelsData
+  m_Name: Project.Tools.SOHelp.LevelsData
   m_EditorClassIdentifier: 
   savable: 1
   autoSave: 0
@@ -19,10 +19,8 @@ MonoBehaviour:
     index: 11
     name: Level_11
     logo: {fileID: 21300000, guid: 41c38acc1f0c65b498651d4c14242221, type: 3}
-    gameObject: {fileID: 8187069296031089452, guid: 535f652eca2859d47a380fdfdad44c2c,
-      type: 3}
-    transform: {fileID: 3423096831437308846, guid: 535f652eca2859d47a380fdfdad44c2c,
-      type: 3}
+    gameObject: {fileID: 8187069296031089452, guid: 535f652eca2859d47a380fdfdad44c2c, type: 3}
+    transform: {fileID: 3423096831437308846, guid: 535f652eca2859d47a380fdfdad44c2c, type: 3}
     initialPosition: {x: 11, y: 11, z: 11}
     rotation: {x: 0.10410939, y: 0.08582115, z: 0.08582115, w: 0.9871326}
     color: {r: 1, g: 0.6366074, b: 0, a: 1}
@@ -30,20 +28,16 @@ MonoBehaviour:
   - index: 1
     name: Level_1
     logo: {fileID: 21300000, guid: 41c38acc1f0c65b498651d4c14242221, type: 3}
-    gameObject: {fileID: 8187069296031089452, guid: 535f652eca2859d47a380fdfdad44c2c,
-      type: 3}
-    transform: {fileID: 3423096831437308846, guid: 535f652eca2859d47a380fdfdad44c2c,
-      type: 3}
+    gameObject: {fileID: 8187069296031089452, guid: 535f652eca2859d47a380fdfdad44c2c, type: 3}
+    transform: {fileID: 3423096831437308846, guid: 535f652eca2859d47a380fdfdad44c2c, type: 3}
     initialPosition: {x: 1, y: 1, z: 1}
     rotation: {x: 0.00880202, y: 0.008649721, z: 0.008649721, w: 0.9998864}
     color: {r: 1, g: 0.6366074, b: 0, a: 1}
   - index: 2
     name: Level_2
     logo: {fileID: 21300000, guid: 41c38acc1f0c65b498651d4c14242221, type: 3}
-    gameObject: {fileID: 8187069296031089452, guid: 535f652eca2859d47a380fdfdad44c2c,
-      type: 3}
-    transform: {fileID: 3423096831437308846, guid: 535f652eca2859d47a380fdfdad44c2c,
-      type: 3}
+    gameObject: {fileID: 8187069296031089452, guid: 535f652eca2859d47a380fdfdad44c2c, type: 3}
+    transform: {fileID: 3423096831437308846, guid: 535f652eca2859d47a380fdfdad44c2c, type: 3}
     initialPosition: {x: 2, y: 2, z: 2}
     rotation: {x: 0.01775163, y: 0.01714255, z: 0.01714255, w: 0.9995485}
     color: {r: 1, g: 0.6366074, b: 0, a: 1}
@@ -54,10 +48,8 @@ MonoBehaviour:
         index: 1
         name: Level_1
         logo: {fileID: 21300000, guid: 41c38acc1f0c65b498651d4c14242221, type: 3}
-        gameObject: {fileID: 8187069296031089452, guid: 535f652eca2859d47a380fdfdad44c2c,
-          type: 3}
-        transform: {fileID: 3423096831437308846, guid: 535f652eca2859d47a380fdfdad44c2c,
-          type: 3}
+        gameObject: {fileID: 8187069296031089452, guid: 535f652eca2859d47a380fdfdad44c2c, type: 3}
+        transform: {fileID: 3423096831437308846, guid: 535f652eca2859d47a380fdfdad44c2c, type: 3}
         initialPosition: {x: 1, y: 1, z: 1}
         rotation: {x: 0.00880202, y: 0.008649721, z: 0.008649721, w: 0.9998864}
         color: {r: 1, g: 0.6366074, b: 0, a: 1}
@@ -68,10 +60,8 @@ MonoBehaviour:
         index: 2
         name: Level_2
         logo: {fileID: 21300000, guid: 41c38acc1f0c65b498651d4c14242221, type: 3}
-        gameObject: {fileID: 8187069296031089452, guid: 535f652eca2859d47a380fdfdad44c2c,
-          type: 3}
-        transform: {fileID: 3423096831437308846, guid: 535f652eca2859d47a380fdfdad44c2c,
-          type: 3}
+        gameObject: {fileID: 8187069296031089452, guid: 535f652eca2859d47a380fdfdad44c2c, type: 3}
+        transform: {fileID: 3423096831437308846, guid: 535f652eca2859d47a380fdfdad44c2c, type: 3}
         initialPosition: {x: 2, y: 2, z: 2}
         rotation: {x: 0.017751629, y: 0.017142551, z: 0.01714255, w: 0.9995485}
         color: {r: 1, g: 0.6366074, b: 0, a: 1}

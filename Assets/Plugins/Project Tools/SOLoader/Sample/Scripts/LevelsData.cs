@@ -1,10 +1,10 @@
 using Newtonsoft.Json;
-using ProjectTools.DictionaryHelp;
+using Project.Tools.DictionaryHelp;
 using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace ProjectTools.SOHelp
+namespace Project.Tools.SOHelp
 {
     public class LevelsData : SOLoader<LevelsData>
     {

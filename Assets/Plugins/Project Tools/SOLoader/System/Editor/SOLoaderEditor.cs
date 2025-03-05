@@ -1,7 +1,7 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace ProjectTools.SOHelp
+namespace Project.Tools.SOHelp
 {
 #if !ODIN_INSPECTOR 
     [CustomEditor(typeof(SOLoader<>), true)]

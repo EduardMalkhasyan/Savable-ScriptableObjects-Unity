@@ -2,7 +2,7 @@
 using Newtonsoft.Json.Serialization;
 using System.Reflection;
 
-namespace ProjectTools.SOHelp
+namespace Project.Tools.SOHelp
 {
     public class UnityObjectResolver : DefaultContractResolver
     {

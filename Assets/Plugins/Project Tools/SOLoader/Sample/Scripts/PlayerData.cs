@@ -1,4 +1,4 @@
-namespace ProjectTools.SOHelp
+namespace Project.Tools.SOHelp
 {
     public class PlayerData : SOLoader<PlayerData>
     {

@@ -6,7 +6,7 @@ using System.Reflection;
 using UnityEditor;
 using UnityEngine;
 
-namespace ProjectTools.SOHelp
+namespace Project.Tools.SOHelp
 {
     public class SOCreator : MonoBehaviour
     {

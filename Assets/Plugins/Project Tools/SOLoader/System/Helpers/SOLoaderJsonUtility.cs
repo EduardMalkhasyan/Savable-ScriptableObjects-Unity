@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System.Collections.Generic;
 
-namespace ProjectTools.SOHelp
+namespace Project.Tools.SOHelp
 {
     public static class SOLoaderJsonUtility
     {

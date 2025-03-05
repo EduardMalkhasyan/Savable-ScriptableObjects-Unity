@@ -2,7 +2,7 @@ using Newtonsoft.Json;
 using System.IO;
 using UnityEngine;
 
-namespace ProjectTools.SOHelp
+namespace Project.Tools.SOHelp
 {
     public class SOLoader<T> : ScriptableObject, ISOLoader where T : ScriptableObject
     {

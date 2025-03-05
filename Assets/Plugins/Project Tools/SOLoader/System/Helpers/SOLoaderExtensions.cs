@@ -8,7 +8,7 @@ using Newtonsoft.Json;
 using UnityEditor;
 #endif
 
-namespace ProjectTools.SOHelp
+namespace Project.Tools.SOHelp
 {
     public static class SOLoaderExtensions
     {

@@ -2,7 +2,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace ProjectTools.SOHelp
+namespace Project.Tools.SOHelp
 {
     public class Test : MonoBehaviour
     {
