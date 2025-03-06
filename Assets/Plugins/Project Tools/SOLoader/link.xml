@@ -1,4 +1,4 @@
 <linker>
   <assembly fullname="Newtonsoft.Json" preserve="all" />
-  <assembly fullname="ProjectTools" preserve="all" />
+  <assembly fullname="Project.Tools.SOHelp" preserve="all" />
 </linker>
