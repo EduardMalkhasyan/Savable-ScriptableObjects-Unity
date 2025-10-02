@@ -83,21 +83,6 @@ namespace Project.Tools.SOHelp
         }
 
 #if UNITY_EDITOR
-        private void OnValidate()
-        {
-            if (savable)
-            {
-                if (UnityEditor.EditorApplication.isPlaying == false)
-                {
-                    ManualSaveData();
-                }
-                else
-                {
-                    SaveData();
-                }
-            }
-        }
-
 #if ODIN_INSPECTOR
         [Sirenix.OdinInspector.Button, Sirenix.OdinInspector.ShowIf(nameof(savable)), Sirenix.OdinInspector.FoldoutGroup(nameof(Control))]
 #endif
